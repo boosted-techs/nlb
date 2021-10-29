@@ -1,0 +1,83 @@
+body, html{
+    background-color: rgb(223,227,238);
+}
+.nav-link .fa{
+    font-size: 28px !important;
+    padding-top: 30px;
+    padding-left: 10px !important;
+}
+
+.active {
+    color: #ff1a1a !important;
+    padding-bottom: 28px !important;
+    border-bottom: 5px solid #ff1a1a !important
+}
+
+.list-transparent .list-group-item {
+    background: transparent !important;
+    border: 0 !important
+}
+
+.width-100 {
+    width: 400px !important
+}
+
+.height-250 {
+    height: 250px !important
+}
+
+.profile_pic_list {
+    width: 100% !important;
+}
+
+.no-padding {
+    padding : 0 !important
+}
+
+.horizontal-list {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.horizontal-list-content {
+    padding: 20px;
+    width: 200px;
+}
+
+.bg-dilute-white {
+    background-color : #f7f7f7 !important;
+}
+
+.avator {
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ff1a1a;
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-body {
+    max-height: 100vh !important;
+    overflow-y: auto !important;
+}
+
+.content-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 1);
+    z-index: 9999
+}
+
+@media only screen and (max-width: 600px) {
+    
+  }

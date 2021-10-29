@@ -1,0 +1,145 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+.bg-danger, .btn-danger{
+    color: rgba(0, 151, 80, 1) !important;
+    background-color: rgba(0, 151, 80, 1) !important;
+    border : 1px solid rgba(0, 151, 80, 1) !important;
+    color: #ffffff !important;
+}
+
+.text-danger {
+    color : rgba(0, 151, 80, 1) !important;
+}
+
+.login-box {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/backgrounds/home-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-box-search-box-form {
+    position: relative;
+    top:100px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.login-form-input {
+    width: 100%;
+    height: 40px;
+    border: thin;
+    padding: 12px;
+}
+
+.login-form-input:focus, .login-form-input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.location-list {
+    position:absolute;
+    max-height: 300px;
+    background: #ffffff;
+    overflow-y: auto;
+    z-index: 4;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.login-search-box-a {
+    width: inherit;
+    height: inherit;
+    background: rgba(0, 151, 80, 0.1);
+}
+
+.create-account {
+    height: 100vh;
+    overflow-y: auto;
+    color: white;
+    background: linear-gradient(to top, #cccccc 5%, #009750 95%);
+}
+
+.creator-header {
+    width: 100%;
+    height: 50px;
+}
+
+.create-account-loader {
+    position: relative;
+    top: 40px;
+    height: 10px;
+    width: 100px;
+    background: linear-gradient(to right,#009750, #ffccee, #009750);
+}
+
+.create-account-body {
+    margin-top: 100px;
+}
+.input {
+    border : 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+}
+
+.form-control .input:focus {
+    border : none !important;
+    background: white;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+[type=text].form-control:focus,
+[type=password].form-control:focus,
+[type=email].form-control:focus,
+[type=tel].form-control:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+.create-account-body input[type=date], .create-account-body input[type=text], .create-account-body input[type=email],
+.create-account-body select, .create-account-body input[type=password] {
+    height: 50px !important;
+    background: transparent;
+    border-bottom: thin #009750 solid !important;
+    color : white !important;
+    font-weight: bolder;
+}
+
+.no-border {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent;
+    border-bottom: thin #009750 solid !important;
+    color : #009750 !important;
+    /*font-weight: bolder;*/
+}
+
+#nav {
+    height: 100px !important;
+}
+
+.create-account-body input[type=text]::placeholder, input[type=password]::placeholder, input[type=email]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color : rgba(0, 151, 80, 1) !important;
+    opacity: 1; /* Firefox */
+}
+
+.create-account-body input[type=text]::placeholder, input[type=password]::placeholder, input[type=email]::placeholder { /* Internet Explorer 10-11 */
+    color : rgba(0, 151, 80, 1) !important;
+}
+
+.create-account-body input[type=text]::placeholder, input[type=password]::placeholder, input[type=email]::placeholder { /* Microsoft Edge */
+    color : rgba(0, 151, 80, 1) !important;
+}
